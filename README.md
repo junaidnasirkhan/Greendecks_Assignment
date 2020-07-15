@@ -22,18 +22,18 @@ Function request_handler() is there to handle POST and GET requests.
 7.A docstring is there for each function explaining it’s functionality.
 
 8.Supported query_type are:-
-  >discounted_products_list 
-  >discounted_products_count 
-  >avg_discount 
-  >discounted_products_count|avg_discount 
-  >expensive_list 
-  >competition_discount_diff_list (here filters discount_diff & competition are mendatory)
+  >discounted_products_list<br> 
+  >discounted_products_count<br> 
+  >avg_discount<br> 
+  >discounted_products_count|avg_discount<br> 
+  >expensive_list<br> 
+  >competition_discount_diff_list (here filters discount_diff & competition are mendatory)<br>
 
 9.Supported filters are (considering operand1 of the filter specifying filter type with format explained in the assignment instructions):-
-  >discount
-  >brand.name
-  >discount_diff
-  >competition
+  >discount<br>
+  >brand.name<br>
+  >discount_diff<br>
+  >competition<br>
 
 10.For the query_type competition_discount_diff_list the filters discount_diff & competition are mandatory, other than that any filter can be applied to any query or a query can also be fired with no filters.
 
